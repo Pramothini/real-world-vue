@@ -12,18 +12,20 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'event-show',
-      component: EventShow
+      name: 'event-list',
+      component: EventList
     },
     {
+      // Notice this has to come before /event/:id
       path: '/event/create',
       name: 'event-create',
       component: EventCreate
     },
     {
-      path: '/event',
-      name: 'event-list',
-      component: EventList
+      path: '/event/:id',
+      name: 'event-show',
+      component: EventShow,
+      props: true
     }
   ]
 })
