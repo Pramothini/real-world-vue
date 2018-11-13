@@ -231,6 +231,146 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "seeing house",
+      "description": "test",
+      "location": "sf",
+      "date": "2018-11-15T18:38:00.000Z",
+      "time": "4:00",
+      "attendees": [],
+      "id": 11
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "house",
+      "description": "test",
+      "location": "sf",
+      "date": "2018-11-07T18:54:00.000Z",
+      "time": "5:00",
+      "attendees": [],
+      "id": 12
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "sdfg",
+      "description": "sfg",
+      "location": "sfdd",
+      "date": "2018-11-04T18:55:00.000Z",
+      "time": "21:00",
+      "attendees": [],
+      "id": 13
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "sdfg",
+      "description": "sfg",
+      "location": "sfdd",
+      "date": "2018-11-04T18:55:00.000Z",
+      "time": "21:00",
+      "attendees": [],
+      "id": 14
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "ad",
+      "description": "sdd",
+      "location": "dd",
+      "date": "2018-11-12T19:04:00.000Z",
+      "time": "20:00",
+      "attendees": [],
+      "id": 15
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "ad",
+      "description": "sdd",
+      "location": "dd",
+      "date": "2018-11-12T19:04:00.000Z",
+      "time": "20:00",
+      "attendees": [],
+      "id": 16
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "ad",
+      "description": "sdd",
+      "location": "dd",
+      "date": "2018-11-12T19:04:00.000Z",
+      "time": "20:00",
+      "attendees": [],
+      "id": 17
+    },
+    {
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "all natural",
+      "description": "nature desc",
+      "location": "sf",
+      "date": "2018-11-28T19:14:00.000Z",
+      "time": "3:00",
+      "attendees": [],
+      "id": 18
+    },
+    {
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "asdf",
+      "description": "ddd",
+      "location": "dd",
+      "date": "2018-11-12T20:21:00.000Z",
+      "time": "10:00",
+      "attendees": [],
+      "id": 19
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "fga",
+      "description": "sdf",
+      "location": "dd",
+      "date": "2018-11-19T20:23:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 20
     }
   ]
 }
