@@ -17,6 +17,7 @@ export default new Vuex.Store({
       'community'
     ],
     events: [],
+    event: {},
     total_events: 0
   },
   mutations: {
@@ -28,6 +29,9 @@ export default new Vuex.Store({
     },
     SET_TOTAL_EVENTS(state, total) {
       state.total_events = total
+    },
+    SET_EVENT(state, event) {
+      state.event = event
     }
   },
   actions: {
@@ -46,11 +50,33 @@ export default new Vuex.Store({
         .catch(error => {
           console.log('There was an error:', error.response)
         })
+    },
+    fetchEvent({ commit, getters }, id) {
+      // Send in the getters
+
+      var event = getters.getEventById(id) // See if we already have this event
+
+      if (event) {
+        // If we do, set the event
+        commit('SET_EVENT', event)
+      } else {
+        // If not, get it with the API.
+        EventService.getEvent(id)
+          .then(response => {
+            commit('SET_EVENT', response.data)
+          })
+          .catch(error => {
+            console.log('There was an error:', error.response)
+          })
+      }
     }
   },
   getters: {
     catLength: state => {
       return state.categories.length
+    },
+    getEventById: state => id => {
+      return state.events.find(event => event.id === id)
     }
   }
 })
