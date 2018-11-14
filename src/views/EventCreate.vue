@@ -69,7 +69,7 @@ export default {
         })
     },
     createFreshEventObject() {
-      const user = this.$store.state.user
+      const user = this.$store.state.user.user
       return {
         category: '',
         organizer: user,
